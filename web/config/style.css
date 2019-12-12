@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(ioio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li{
+    float: left;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    opacity: .8;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: plum;
+    
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+
+
+
